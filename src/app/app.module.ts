@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ComponentesComponent } from './componentes/componentes.component';
 import { HomePageComponent } from './componentes/home-page/home-page.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { LoginPageComponent } from './componentes/login-page/login-page.component';
@@ -14,7 +13,6 @@ import { NotFoundPageComponent } from './componentes/not-found-page/not-found-pa
 @NgModule({
   declarations: [
     AppComponent,
-    ComponentesComponent,
     HomePageComponent,
     NavbarComponent,
     LoginPageComponent,
